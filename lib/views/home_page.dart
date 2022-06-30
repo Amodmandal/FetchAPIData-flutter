@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     Text(
                       posts![index].name,
-                      style: TextStyle(
+                      style:  const TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 20,
                           color: Colors.amber),
