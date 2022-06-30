@@ -44,11 +44,11 @@ class _HomePageState extends State<HomePage> {
   shape: BeveledRectangleBorder(
     borderRadius: BorderRadius.circular(10.0),
   ),
-              margin: EdgeInsets.all(20),
+              margin:  const EdgeInsets.all(20),
               shadowColor: Color.fromARGB(255, 240, 7, 7),
               color: Color.fromARGB(255, 72, 173, 50),
               child: Container(
-                padding: EdgeInsets.all(10),
+                padding:  const EdgeInsets.all(10),
                 child: Column(
                   children: [
                     Text(
