@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
   shape: BeveledRectangleBorder(
     borderRadius: BorderRadius.circular(10.0),
   ),
-              
+              margin: EdgeInsets.all(20),
               shadowColor: Color.fromARGB(255, 240, 7, 7),
               color: Color.fromARGB(255, 72, 173, 50),
               child: Container(
@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
                 child: Column(
                   children: [
                     Text(
-                      posts![index].name,git
+                      posts![index].name,
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 20,
